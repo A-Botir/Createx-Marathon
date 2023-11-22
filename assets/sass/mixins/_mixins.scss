@@ -1,0 +1,23 @@
+.d-flex-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex-l {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.d-flex-sb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d-flex-sa {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
