@@ -95,7 +95,7 @@ button {
   src: local("Ubuntu Bold"), url("/assets/font/Ubuntu/Ubuntu-Bold.ttf") format("truetype");
 }
 .header_container {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 .header_container .main_header__nav {
   display: flex;
