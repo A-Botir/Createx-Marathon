@@ -3,13 +3,14 @@
     font-style: normal;
     font-weight: 400;
     src:  local('Ubuntu Regular'),
-    url('../font/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
+    url('/assets/font/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
 }
 
 @font-face{
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
+    line-height: 150%;
     src:  local('Ubuntu Bold'),
-    url('../font/Ubuntu/Ubuntu-Bold.ttf') format('truetype');
+    url('/assets/font/Ubuntu/Ubuntu-Bold.ttf') format('truetype');
 }
