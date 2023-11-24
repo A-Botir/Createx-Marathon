@@ -316,6 +316,18 @@ button {
   vertical-align: middle;
 }
 
+.application {
+  background-image: url("/assets/images/footer/application image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.application .application_content {
+  padding: 80px 0;
+  display: flex;
+  justify-content: right;
+}
+
 /* -------------------hero------------------------- */
 .home__hero {
   background: linear-gradient(0deg, rgba(30, 33, 44, 0.6) 0%, rgba(30, 33, 44, 0.6) 100%), url("/assets/images/Home page/back/background hero.jpg hero.jpg"), lightgray 50%/cover no-repeat;
@@ -324,7 +336,7 @@ button {
 }
 
 .hero_content {
-  background-image: url("/assets/images/Home page/icons/right arrow.svg"), url("/assets/images/Home page/icons/right arrow.svg");
+  background-image: url("/assets/images/Home page/icons/left arrow.svg"), url("/assets/images/Home page/icons/right arrow.svg");
   background-repeat: no-repeat, no-repeat;
   background-position: center left, center right;
   cursor: pointer;
@@ -1021,8 +1033,12 @@ span {
   line-height: 150%;
   margin-bottom: 40px;
 }
-.header--servis2 .servis2_hero .servis2_hero_block .servis2_hero__undertitle .servis2_hero__opasity {
+.header--servis2 .servis2_hero .servis2_hero_block .servis2_hero__undertitle #servis2_hero__opasity {
   color: #9A9CA5;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 40px;
 }
 .header--servis2 .servis2_hero .servis2_hero_block .servis2_hero__title {
   color: var(--gray-900, #1E212C);
