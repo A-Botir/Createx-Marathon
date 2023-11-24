@@ -21,3 +21,15 @@
     align-items: center;
     justify-content: space-around;
 }
+
+.d-flex-sl {
+    display: flex;
+    align-items: start;
+    justify-content: left;
+}
+
+.d-flex-sc {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}

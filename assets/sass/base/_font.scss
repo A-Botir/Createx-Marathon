@@ -14,3 +14,12 @@
     src:  local('Ubuntu Bold'),
     url('/assets/font/Ubuntu/Ubuntu-Bold.ttf') format('truetype');
 }
+
+@font-face{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    src:  local('Ubuntu Black'),
+    url('/assets/font/Lato/Lato-Black.ttf') format('truetype');
+}
